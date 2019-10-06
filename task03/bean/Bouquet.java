@@ -70,7 +70,7 @@ public class Bouquet {
 
 	@Override
 	public String toString() {
-		return "Букет: " + flowers.get(0).getName() + ", " + (flowers.size() + 1) + "шт., упаковка: " + decor
+		return "Букет: " + flowers.get(0).getName() + ", " + flowers.size() + "шт., упаковка: " + decor
 				+ ", цена = " + price + ".";
 	}
 
