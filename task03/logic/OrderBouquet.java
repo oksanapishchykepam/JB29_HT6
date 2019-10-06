@@ -18,7 +18,7 @@ public class OrderBouquet {
 
 	public int bouquetPrice(Bouquet bouquet) {
 		bouquet.setPrice(
-				bouquet.getPrice() + (bouquet.getFlowers().size() + 1) * bouquet.getFlowers().get(0).getPrice());
+				bouquet.getPrice() + (bouquet.getFlowers().size()) * bouquet.getFlowers().get(0).getPrice());
 
 		return bouquet.getPrice();
 	}
